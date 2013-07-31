@@ -1,0 +1,76 @@
+/* CSS Documento */
+		#button
+		{
+		
+				margin-left:20;
+				margin-top:25;		
+        		width: 11em;       
+        		padding: 0 0 1em 0;
+        		margin-bottom: 1em;
+				font-family:Verdana, Arial, Helvetica, sans-serif;
+        		font-size : 13px;
+				font-weight: 700;	
+        		background-color: #90bade;
+        		color: #333;
+        }
+
+        #button ul 
+		{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                border: none;
+        }
+
+        #button li 
+		{
+                border-bottom: 1px solid #90bade;
+                margin: 0;
+                list-style: none;
+                list-style-image: none;
+        }
+
+        #button li a 
+		{
+                display: block;
+                padding: 5px 5px 5px 0.5em;
+                border-left: 10px solid #1958b7;
+                border-right: 10px solid #508fc4;
+                background-color: #2175bc;
+                color: #fff;
+                text-decoration: none;
+                width: 100%;
+         }
+
+        html>body #button li a 
+		{
+                width: auto;
+        }
+
+        #button li a:hover 
+		{
+                border-left: 10px solid #1c64d1;
+                border-right: 10px solid #5ba3e0;
+                background-color: #2586d7;
+                color: #fff;
+        }
+
+        #button li #active 
+		{
+                border-left: 10px solid #1c64d1;
+                border-right: 10px solid #5ba3e0;
+                background-color: #2586d7;
+                color: #fff;
+        }
+		
+		
+		
+		
+		
+		A:link { text-align:center; text-decoration:none; color: #66CCFF     ;}
+		A:visited { text-align:center;text-decoration:none; color: #000099;}
+		A:active { text-align:center; text-decoration:none;color: #000000;}
+		
+		
+		
+		

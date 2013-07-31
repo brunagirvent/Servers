@@ -1,0 +1,73 @@
+/* CSS Document */
+
+.tablaid 
+		{
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size:10px;
+				text-align: right;
+				width:600px;
+				margin-top:30px;
+				margin-left:50px;
+				
+
+		}
+		 .tablaid  th 
+		{
+				padding: 5px;
+				font-size: 13px;
+				background-color: #83aec0;
+				background-image: url(fondo_th.png);
+				background-repeat: repeat-x;
+				color: #FFFFFF;
+				border-right-width: 1px;
+				border-bottom-width: 1px;
+				border-right-style: solid;
+				border-bottom-style: solid;
+				border-right-color: #558FA6;
+				border-bottom-color: #558FA6;
+				font-family:Verdana, Arial, Helvetica, sans-serif;
+				
+		}
+		
+		.tablaid  .modo1 
+		{
+				font-size: 12px;
+				
+				background-color: #e2ebef;
+				background-image: url(fondo_tr01.png);
+				background-repeat: repeat-x;
+				color: #34484E;
+				font-family:Verdana, Arial, Helvetica, sans-serif;
+		}
+		.tablaid  .modo1 td 
+		{
+				padding: 5px;
+				border-right-width: 1px;
+				border-bottom-width: 1px;
+				border-right-style: solid;
+				border-bottom-style: solid;
+				border-right-color: #A4C4D0;
+				border-bottom-color: #A4C4D0;
+				text-align:center;
+				
+		}
+		
+		.tablaid .modo1 th 
+		{
+				background-image: url(fondo_tr01a.png);
+				background-position: left top;
+				font-size: 12px;
+				font-weight:bold;
+				text-align: center;
+				background-color: #e2ebef;
+				background-repeat: repeat-x;
+				color: #34484E;
+				font-family:Verdana, Arial, Helvetica, sans-serif;
+				border-right-width: 1px;
+				border-bottom-width: 1px;
+				border-right-style: solid;
+				border-bottom-style: solid;
+				border-right-color: #A4C4D0;
+				border-bottom-color: #A4C4D0;
+		}
+		

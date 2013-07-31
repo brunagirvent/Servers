@@ -1,0 +1,107 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<Videos>
+<Category id="1">
+<nameCategory>Courses</nameCategory>
+<Topic id="1">
+<nameTopic>Signals and Systems</nameTopic>
+<video id="112">
+<nameVideo>JR Casas interview</nameVideo>
+<user>bruna</user>
+<date>18-05-2010</date>
+<description>Josep Ramon Casas interview about TDT</description>
+<urlThumbnail>http://147.83.74.180/thumbnails/112.jpg</urlThumbnail>
+<urlVideo>http://147.83.74.180/videos/low/112-index.m3u8</urlVideo>
+</video>
+<video id="134">
+<nameVideo>prova2</nameVideo>
+<user>bruna</user>
+<date>15-06-2010</date>
+<description>test ogg</description>
+<urlThumbnail>http://147.83.74.180/thumbnails/134.jpg</urlThumbnail>
+<urlVideo>http://147.83.74.180/videos/low/134-index.m3u8</urlVideo>
+</video>
+</Topic>
+<Topic id="3">
+<nameTopic>Machine learning</nameTopic>
+<video id="111">
+<nameVideo>Spectrum Analyzer</nameVideo>
+<user>bruna</user>
+<date>18-05-2010</date>
+<description>Spectrum Analyzer</description>
+<urlThumbnail>http://147.83.74.180/thumbnails/111.jpg</urlThumbnail>
+<urlVideo>http://147.83.74.180/videos/low/111-index.m3u8</urlVideo>
+</video>
+<video id="131">
+<nameVideo>Prolink LD</nameVideo>
+<user>bruna</user>
+<date>03-06-2010</date>
+<description> Prolink LD</description>
+<urlThumbnail>http://147.83.74.180/thumbnails/131.jpg</urlThumbnail>
+<urlVideo>http://147.83.74.180/videos/low/131-index.m3u8</urlVideo>
+</video>
+</Topic>
+</Category>
+<Category id="2">
+<nameCategory>Thesis</nameCategory>
+<Topic id="1">
+<nameTopic>IPTV</nameTopic>
+<video id="120">
+<nameVideo>Angela Abad</nameVideo>
+<user>bruna</user>
+<date>20-05-2010</date>
+<description>Server streams audio and video based software and free formats</description>
+<urlThumbnail>http://147.83.74.180/thumbnails/120.jpg</urlThumbnail>
+<urlVideo>http://147.83.74.180/videos/low/120-index.m3u8</urlVideo>
+</video>
+</Topic>
+<Topic id="2">
+<nameTopic>Image Processing</nameTopic>
+<video id="130">
+<nameVideo>Roger Trias</nameVideo>
+<user>bruna</user>
+<date>03-06-2010</date>
+<description> Advanced system for the photographic archive of Badalona Museum</description>
+<urlThumbnail>http://147.83.74.180/thumbnails/130.jpg</urlThumbnail>
+<urlVideo>http://147.83.74.180/videos/low/130-index.m3u8</urlVideo>
+</video>
+<video id="117">
+<nameVideo>Silvia Cortes 2</nameVideo>
+<user>bruna</user>
+<date>20-05-2010</date>
+<description>Graphical User Interface for Image-based Search Images</description>
+<urlThumbnail>http://147.83.74.180/thumbnails/117.jpg</urlThumbnail>
+<urlVideo>http://147.83.74.180/videos/low/117-index.m3u8</urlVideo>
+</video>
+<video id="116">
+<nameVideo>Silvia Cortes 1</nameVideo>
+<user>bruna</user>
+<date>20-05-2010</date>
+<description>Graphical User Interface for Image-based Search Images</description>
+<urlThumbnail>http://147.83.74.180/thumbnails/116.jpg</urlThumbnail>
+<urlVideo>http://147.83.74.180/videos/low/116-index.m3u8</urlVideo>
+</video>
+</Topic>
+</Category>
+<Category id="3">
+<nameCategory>Campus</nameCategory>
+<Topic id="1">
+<nameTopic>EUETIT</nameTopic>
+<video id="114">
+<nameVideo>Culture Day</nameVideo>
+<user>bruna</user>
+<date>18-05-2010</date>
+<description>culture day at EUETIT</description>
+<urlThumbnail>http://147.83.74.180/thumbnails/114.jpg</urlThumbnail>
+<urlVideo>http://147.83.74.180/videos/low/114-index.m3u8</urlVideo>
+</video>
+<video id="113">
+<nameVideo>Culture Day Concert</nameVideo>
+<user>bruna</user>
+<date>18-05-2010</date>
+<description>culture day at euetit</description>
+<urlThumbnail>http://147.83.74.180/thumbnails/113.jpg</urlThumbnail>
+<urlVideo>http://147.83.74.180/videos/low/113-index.m3u8</urlVideo>
+</video>
+</Topic>
+</Category>
+</Videos>

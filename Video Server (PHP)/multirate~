@@ -1,0 +1,47 @@
+#!/bin/bash
+
+input_file="/opt/lampp/htdocs/projecte/videos/standard/ElTemps.mp4";
+prefix=ElTemps;
+
+output_dir="/opt/lampp/htdocs/projecte/videos/low/tests/"
+
+temp_dir=$prefix;
+url_prefix=/
+
+
+function transcode_segment () {
+
+filename=$prefix\_$BR;
+tempfile=$prefix\_pre.ts;
+
+ffmpeg -i $input_file -f mpegts -acodec libmp3lame -ar 48000 -ab 64k -s 320x240 -vcodec libx264 -b $BR -flags +loop -cmp +chroma -partitions +parti4x4+partp8x8+partb8x8 -subq 5 -trellis 1 -refs 1 -coder 0 -me_range 16 -keyint_min 25 -sc_threshold 40 -i_qfactor 0.71 -bt 200k -maxrate $BR -bufsize $BR -rc_eq 'blurCplx^(1-qComp)' -qcomp 0.6 -qmin 10 -qmax 51 -qdiff 4 -level 30 -aspect 320:240 -g 30 -async 2 $temp_dir/$tempfile
+
+segmenter $temp_dir/$tempfile 10 $temp_dir/$filename $temp_dir/$filename-index.m3u8 $url_prefix
+
+rm $temp_dir/$tempfile
+
+mv $temp_dir/* $output_dir/$prefix
+
+mv $output_dir/$prefix/$filename-index.m3u8 $output_dir
+
+rm -r $temp_dir
+
+}
+
+mkdir $temp_dir
+mkdir $output_dir/$prefix
+
+# Codificacion y segmentacion 800k
+BR=96k
+transcode_segment $BR;
+
+# Codificacion y segmentacion 800k
+BR=128k
+#transcode_segment $BR;
+
+# Codificacion y segmentacion 800k
+BR=384k
+#transcode_segment $BR;
+
+
+
